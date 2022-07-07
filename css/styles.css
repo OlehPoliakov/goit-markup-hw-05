@@ -225,7 +225,7 @@ a {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
-/* .close {
+.close {
     display: inline-block;
     position: fixed;
     text-align: center;
@@ -233,15 +233,18 @@ a {
     right: 8px;
     width: 30px;
     height: 30px;
-    outline: 2px solid tomato;
+    border: 1px solid tomato;
+    border-radius: 50%;
     fill: black;
 }
 .icon-closer {
+    top: 0;
+    right: 0;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 /* Достоинства */
 .dignity {
@@ -496,6 +499,7 @@ button[type="button"] {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .title-client {
     text-align: center;
     font-weight: 700;
@@ -506,18 +510,20 @@ button[type="button"] {
     color: var(--primary-text-color);
     margin-bottom: 50px;
 }
+
 .client {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .client-li:not(:last-child) {
     margin-right: 30px;
 }
 
 .client-list {
-    width: 106px;
-    height: 60px;
+    width: 170px;
+    height: 92px;
 }
 
 .client-a {
