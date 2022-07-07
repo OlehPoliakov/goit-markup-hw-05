@@ -226,24 +226,28 @@ a {
     border-radius: 4px;
 }
 .close {
-    display: inline-block;
     position: fixed;
-    text-align: center;
     top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
-    border: 1px solid tomato;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    fill: black;
+    fill: #000000;
 }
 .icon-closer {
-    top: 0;
-    right: 0;
+    display: block;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.close:hover {
+    cursor: pointer;
+    border-color: #2196F3;
+    fill: #2196F3;
 }
 
 /* Достоинства */
