@@ -218,9 +218,6 @@ a {
     text-transform: uppercase;
     color: var(--white-text-color)
 }
-.order {
-    color: var(--white-text-color);
-}
 .hero button {
     padding: 10px 32px;
     margin: 30px auto 0;
