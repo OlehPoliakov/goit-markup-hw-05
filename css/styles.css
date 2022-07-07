@@ -310,7 +310,7 @@ a {
     font-size: 36px;
     line-height: 1.2;
 }
-
+/* Чем мы занимаемся Overlay */
 .box {
     position: relative;
     overflow: hidden;
@@ -328,6 +328,7 @@ a {
     background: rgba(47, 48, 58, 0.8);
     transform: translatey(100%);
     transition: transform 250ms ease;
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay>p {
