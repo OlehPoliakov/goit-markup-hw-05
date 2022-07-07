@@ -61,12 +61,16 @@
     <main>
         <section class="hero">
                 <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button type="button"><span class="order">Заказать услугу</span></button>
-                <!-- <div class="backdrop">
+                <button type="button"><span class="order" data-modal-open>Заказать услугу</span></button>
+                <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <button>X</button>
+                        <div class="close" data-modal-close>
+                            <svg class="icon-closer" width="18" height="18">
+                                <use href="./images/symbol-defs.svg#icon-close"></use>
+                            </svg>
+                        </div>
                     </div>
-                </div> -->
+                </div>
             </section>
 <!-- Достоинства -->
         <section class="dignity">
@@ -307,7 +311,7 @@
                     <li class="client-li">
                         <a class="client-a" href="">
                             <svg class="client-list">
-                                <use href="./images/symbol-defs.svg#icon-group-1" wid ></use>
+                                <use href="./images/symbol-defs.svg#icon-group-1"></use>
                             </svg>
                         </a>
                     </li>
@@ -418,5 +422,6 @@
             </div>
         </section>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
