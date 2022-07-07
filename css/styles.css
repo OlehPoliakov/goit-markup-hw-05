@@ -311,6 +311,36 @@ a {
     line-height: 1.2;
 }
 
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover .overlay {
+    transform: translatey(0);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    transform: translatey(100%);
+    transition: transform 250ms ease;
+}
+
+.overlay>p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 27px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 /* Наша команда */
 .team {
     background-color: var(--grey-text-color);
