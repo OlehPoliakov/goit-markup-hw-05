@@ -663,7 +663,7 @@ button[type="button"] {
     text-transform: uppercase;
     color: var(--white-text-color);
     margin-bottom: 20px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 .footer-nav {
     display: flex;
